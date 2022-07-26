@@ -28,8 +28,8 @@ export class ContactsForm extends Component {
   };
 
   static propTypes = {
-  onSubmit: PropTypes.func.isRequired,
-};
+    onSubmit: PropTypes.func.isRequired,
+  };
 
   render() {
     const { name, number } = this.state;
@@ -73,5 +73,3 @@ export class ContactsForm extends Component {
     );
   }
 }
-
-
